@@ -61,7 +61,7 @@ h1.title {
 }
 
 .scores-container {
-    float: left;
+    float: right;
     text-align: right;
 }
 
@@ -77,7 +77,6 @@ h1.title {
     font-weight: bold;
     border-radius: 3px;
     color: white;
-    margin-top: 8px;
     text-align: center;
 }
 
@@ -121,7 +120,7 @@ h1.title {
 }
 
 .restart-undo {
-    float: right;
+    float: left;
     text-align: right;
 }
 
@@ -709,6 +708,7 @@ hr {
         box-sizing: border-box;
         line-height: 1.65;
     }
+    .undo-button,
     .restart-button {
         width: 42%;
         padding: 0;

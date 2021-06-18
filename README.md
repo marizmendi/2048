@@ -1,22 +1,18 @@
-# 2048
+# game
 
 simple is better
 
-a smaller docker version of 2048
-
-Base on alpine
-
-Base on nginx
+Base on nginx:alpine
 
 # run the docker container with your own build
 
-    git clone https://github.com/marizmendi/2048.git
-    docker build -t "2048" .
-    docker run -d -p 8080:80 2048
+    git clone https://github.com/marizmendi/game.git
+    docker build -t "game" .
+    docker run -d -p 8080:80 game
 
 # run the docker container by pulling the image directly
 
-    docker run -d -p 8080:80 marizmendi/2048
+    docker run -d -p 8080:80 marizmendi/game
 
 # Access the game
 

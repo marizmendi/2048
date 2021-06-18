@@ -1,4 +1,4 @@
-name: '2048'
+name: game
 
 on:
   push:
@@ -30,7 +30,7 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: marizmendi/2048:latest
+          tags: marizmendi/game:latest
       -
         name: Kubernetes CLI - kubectl
         uses: steebchen/kubectl@v1.0.0

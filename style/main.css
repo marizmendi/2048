@@ -61,7 +61,7 @@ h1.title {
 }
 
 .scores-container {
-    float: right;
+    float: left;
     text-align: right;
 }
 
@@ -120,7 +120,7 @@ h1.title {
 }
 
 .restart-undo {
-    float: left;
+    float: right;
     text-align: right;
 }
 
